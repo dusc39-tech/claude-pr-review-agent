@@ -6,6 +6,12 @@ Building with Claude Code? Have tasks to delegate?
 Want to get paid for contributing to AI projects?
 You're in the right place.
 
+## Commercial edition
+
+The public repository contains the read-only implementation and examples. For a packaged ZIP with installation guidance, automated tests, checked sample reviews, and an individual or team license, see the [Claude PR Review Agent on Payhip](https://payhip.com/b/18Xqu).
+
+Launch offer: use **PRREVIEW20** for 20% off the first three purchases.
+
 ---
 
 ## How it works
@@ -27,36 +33,3 @@ You're in the right place.
 | # | Task | Amount | Status |
 |---|------|--------|--------|
 | [#1](../../issues/1) | SKILL: Generate a CHANGELOG from git history | $50 | 🟢 Open |
-| [#2](../../issues/2) | TEMPLATE: CLAUDE.md for a Next.js + SQLite project | $75 | 🟢 Open |
-| [#3](../../issues/3) | HOOK: Block destructive bash commands in Claude Code | $100 | 🟢 Open |
-| [#4](../../issues/4) | AGENT: PR reviewer with structured Markdown output | $150 | 🟢 Open |
-| [#5](../../issues/5) | WORKFLOW: n8n + Claude API — automated weekly dev summary | $200 | 🟢 Open |
-
----
-
-## Rules
-
-- Tasks must be related to Claude Code or AI tooling
-- Every issue must have clear acceptance criteria before a bounty is activated
-- Payment is handled by [Opire](https://opire.dev) (Stripe)
-- Quality over speed — a solid PR beats a fast one
-
-## Claude PR Review Agent (Bounty #4)
-
-This repository includes a read-only CLI that downloads a public pull-request
-diff and asks Claude Code for a structured Markdown review. It reports the
-change summary, concrete risks, actionable suggestions, and confidence score.
-
-See [INSTALL.md](INSTALL.md) for setup and usage. The implementation uses only
-the Python standard library and never executes code from the reviewed PR.
-
----
-
-## Community
-
-- 🐦 X: [@ClaudeBounty](https://x.com/ClaudeBounty)
-- 📧 Contact: claudebounty@gmail.com
-
----
-
-*Started by the Claude builder community · March 2026 · MIT License*
